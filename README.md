@@ -1,4 +1,4 @@
 chess4
 ======
 
-Four-player's chess
+Four-player chess
