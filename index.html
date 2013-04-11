@@ -1,61 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html id="index" lang="en-us"> 
+
 <head>
-<meta charset='utf-8'/>
-<meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-<meta name="description" content="Chess4: Four-player chess"/>
-<link rel="stylesheet" type="text/css" media="screen" href="css/default.css">
-<title>Chess4</title>
+<meta charset="utf-8"/>
+<title>Chess4 | Four-player chess</title>
+<meta name="keywords" content="chess variant, game theory, artificial intelligence"/>
+<meta name="description" content="General information and principal guidelines"/>
+<link rel="stylesheet" media="all" href="css/normalize.css"/>
+<link rel="stylesheet" media="all" href="css/default.css"/>
+<script src="js/jquery.js"></script>
+<script src="js/jdom.js"></script>
 </head>
 
-  <body>
+<body>
+<noscript>
+ Your browser does not support JavaScript.
+</noscript>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/photino/chess4">View on GitHub</a>
+<header>
+<h2>Chess4: <span>New challenges for artificial intelligence</span></h2> 
+</header>
 
-          <h1 id="project_title">Chess4</h1>
-          <h2 id="project_tagline">Four-player chess</h2>
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/photino/chess4/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/photino/chess4/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-      
-<h3>Introduction</h3>
+<article>
+<section>
 <p>
-As a unique cognitive nexus between the art and the science of logic, 
-chess is inherently related to several branches of mathematics. 
-One of the most important challenges is the development of algorithms 
-that can play chess. Thanks to a dramatic increasing of computing power
-in the last two decades, current chess engines are capable of defeating
-even the strongest human players under normal conditions. 
-However, this success story provides limited insights into human cognition,
-beacuse the engines usually have a fairly simple static analysis routine
-and gain their power by the number-crunching approach. There exist some
-other strategy board games such as Go and Arimaa still dominated by humans, 
-which require more intellectual elements that mimic human thought than
-chess
-</p>      
-        
-      </section>
-    </div>
+  An introduction to our game can be found <a href="doc/chess4.pdf">here</a>.
+  The board consists of 144 squares (tweleve columns and tweleve rows) arranged 
+  in two alternating colors. The game is played as if the chessboard was a torus,
+  with the left side joined to the right side and the top side joined to the bottom side. 
+  This means that there is no edge on the side of the board. When a piece goes off
+  the left (top) edge, it reappears on the right (bottom) edge, and vice versa. 
+  Each player starts with the same chess pieces as the standard chess game.
+  Now, you may have a try <a href="play.html">online</a>. 
+</p>
+</section>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Chess4 maintained by <a href="https://github.com/photino">photino</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+</article>
 
-    
+<footer>
+<address>
+  Copyright &copy; 2013 by
+  <a href="https://github.com/photino">photino</a> under the 
+  <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 License</a>
+</address>	
+</footer>
 
-  </body>
+</body>
 </html>
